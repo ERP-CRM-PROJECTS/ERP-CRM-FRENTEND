@@ -1,0 +1,41 @@
+.home-page {
+    padding: 20px;
+    text-align: center;
+    background-color: #f9f9f9;
+    min-height: 100vh; /* Ensure the homepage covers the full height of the viewport */
+  }
+  
+  .home-page h1 {
+    margin-bottom: 20px;
+    font-size: 2.5em;
+    color: #333;
+  }
+  
+  .home-page img.logo {
+    width: 150px;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  .loading,
+  .error {
+    font-size: 1.2em;
+    color: #666;
+    margin-top: 20px;
+  }
+  
+  .error {
+    color: red;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .home-page h1 {
+      font-size: 2em;
+    }
+  
+    .home-page img.logo {
+      width: 100px;
+    }
+  }
+  
